@@ -1,5 +1,5 @@
 import express, { Application } from "express";
-import { healthCheck } from "./controllers/health-check.route";
+import { healthCheck } from "./controllers/health-check.controller";
 import swaggerUi from "swagger-ui-express";
 
 const app: Application = express();
